@@ -39,8 +39,8 @@ module top(
     counter_baud_rate counter_baud_rate(
         .en(toggle_out),       
         .clk(clk),      
-        .rst_async(baud_tick),
-        .rst_sync(rst), 
+        .rst_async(rst), 
+        .rst_sync(baud_tick),        
         .out(baud_count)       
     );
     
@@ -68,8 +68,6 @@ module top(
         .in(reg_out), 
         .sel(bit_count),
         .out(mux_out) 
-    );
-    
-    
+    );       
     
 endmodule
