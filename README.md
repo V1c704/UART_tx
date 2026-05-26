@@ -47,4 +47,4 @@ A testbench is included to verify sequential functionality and timing strictness
 ## Future Improvements
 * **Develop a `UART_RX` (Receiver) module to pair with this transmitter, completing a full bidirectional UART transceiver system.**
 * Add a parameterized clock frequency and baud rate to make the module easily adaptable to different FPGA boards.
-* Implement a FIFO buffer on the input to allow queuing of multiple bytes for continuous transmission.
+
