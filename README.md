@@ -1,7 +1,7 @@
 # UART Transmitter (UART_TX)
 
 ## Overview
-This repository contains the RTL implementation of a digital **UART (Universal Asynchronous Receiver-Transmitter) Transmission module** written in Verilog. The circuit acts as a parallel-to-serial data converter, taking an 8-bit parallel data input and transmitting it serially over a single line according to standard UART protocol timing.
+This repository contains the RTL implementation of a digital **UART (Universal Asynchronous Receiver-Transmitter) Transmission module** written in SystemVerilog. The circuit acts as a parallel-to-serial data converter, taking an 8-bit parallel data input and transmitting it serially over a single line according to standard UART protocol timing.
 
 ## Key Features
 * **Baud Rate:** 9600 baud (derived from a 50MHz system clock).
